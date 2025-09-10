@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload Video - Ujjain Dashboard</title>
+    <style>
+        body { background: #f5f5f5; font-family: 'Segoe UI', Arial, sans-serif; }
+        .container { max-width: 600px; margin: 60px auto; background: #fff; border-radius: 12px; box-shadow: 0 2px 12px #ccc; padding: 32px; }
+        h1 { color: #6c3483; text-align: center; font-size: 2em; margin-bottom: 10px; }
+        form { text-align: center; margin-top: 30px; }
+        .btn { background: #6c3483; color: #fff; border: none; padding: 10px 24px; border-radius: 6px; font-size: 1em; cursor: pointer; }
+        .btn:hover { background: #884ea0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Upload Video for Crowd Analysis</h1>
+        <form method="post" enctype="multipart/form-data">
+            <input type="file" name="file" accept="video/*" required>
+            <button class="btn" type="submit">Upload & Analyse</button>
+        </form>
+    </div>
+</body>
+</html>
